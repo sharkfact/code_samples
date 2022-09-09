@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Poppins');
+
+/* Logo on main header */
+.skin-blue .main-header .logo  {background-color: #213469;
+							    height: 60px;
+							    padding-top: 5px;
+                                font-family: 'Bitter';
+                                font-size: 30px;
+}
+
+/* Logo when hovered */
+.skin-blue .main-header .logo:hover {background-color: #213469;
+									 padding-top: 5px;
+									 height: 60px;
+}
+
+/* Navbar (rest of the header) */
+.skin-blue .main-header .navbar {background-color: #213469;
+								 padding-top: 5px;
+								 height: 60px;
+}
+
+/* Navbar (rest of the header) */
+.skin-blue .main-header .navbar:hover {background-color: #213469;
+								 	   padding-top: 5px;
+								 	   height: 60px;
+}
+
+/* Format text in input boxes */
+input[type="text"] {font-size: 20px;}
+input[type="password"] {font-size: 20px;}
+
+/* Add background */
+.content-wrapper,
+.right-side {
+	background-color: #ffffff;
+	background-image: url("background.png");
+	background-position: absolute;
+	height: 100%;
+	background-repeat: repeat-x;
+}
+
+
+/* Edit fonts for MM brand */
+body{font-family: 'Poppins'; font-size: 18px;}
+h3{font-family: 'Poppins'; font-size: 15px;}
+h4{font-family: 'Poppins'; font-size: 25px;}
+h5{font-family: 'Poppins'; font-size: 35px;}
+
+/* Format list spacing */
+li{margin-bottom: 10px;
+   font-family: 'Poppins';
+   font-size: 18px;
+}
+
+/* Specify color of selected tab */
+.nav-tabs-custom .nav-tabs li.active {border-top-color: #213469;}
+
+/* Specify color of selected dataframe row */
+table.dataTable tr.selected td {background-color: rgba(90, 91, 91, 0.6) !important;}
+
+/* Format login buttons */
+.loginButton{color: white;
+			 font-size: 20px;
+			 background-color: #213469;
+			 position: center;
+			 -webkit-border-radius: 28;
+			 -moz-border-radius: 28;
+			 border-radius: 28px;
+			 padding: 4px 25px 4px 25px;
+			 border: solid #213469 1px;
+			 margin: 0 auto;
+			 display: block;
+}
+
+.loginButton:hover{color: #213469;
+				   font-size: 20px;
+				   background-color: white;
+				   position: center;
+				   -webkit-border-radius: 28;
+				   -moz-border-radius: 28;
+				   border-radius: 28px;
+				   padding: 4px 25px 4px 25px;
+				   border: solid #213469 2px;
+				   margin: 0 auto;
+				   display: block;
+}
